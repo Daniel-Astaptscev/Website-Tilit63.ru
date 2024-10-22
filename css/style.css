@@ -1,0 +1,386 @@
+/*
+====================================================================
+	Global Settings	
+====================================================================
+*/ 
+
+body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+  
+main {
+	/* чтобы контейнер занимал оставшееся пространство */
+	flex-grow: 1;
+	background: rgb(242, 250, 255);
+}
+
+li {
+	list-style-type: none;
+	font-family: 'Wix Madefor Display';
+	font-size: 1.3rem;
+	line-height: 1.5rem;
+}
+
+table, th, td {
+	border: 3px solid #5593c9;
+	font-family: 'Wix Madefor Display';
+	font-size: 1.1rem;
+} 
+
+td {
+	text-align: center;
+}
+
+th {
+	background: #7cbcf3;
+	text-align: center;
+}
+
+div p {
+	font-family: 'Wix Madefor Display';
+	font-size: 1.3rem;
+	line-height: 1.5rem;
+}
+
+a, article > a:visited {
+	color: #000;
+}
+
+a:visited {
+	color: #fff;
+}
+
+a:hover {
+	color: #38e1ff;
+}
+
+/*
+====================================================================
+	Fonts
+====================================================================
+*/
+
+.ibm-plex {
+	font-family: 'IBM Plex Mono';
+}
+
+.nav-ibm-plex {
+	font-family: 'IBM Plex Mono';
+	font-size: 1.3rem;
+	font-weight: 600;
+	font-style: normal;
+	color: #fff;
+}
+
+.nav-ibm-plex:visited {
+	color: #fff;
+}
+
+.carousel-ibm-plex {
+	font-family: 'IBM Plex Mono';
+	font-size: 2rem;
+	line-height: 2.1rem;
+}
+
+.font-header {
+	font-family: "Wix Madefor Display";
+	font-size: 0.95em;
+	line-height: 1.1em;
+}
+
+.font-news {
+	font-family: 'Wix Madefor Display';
+	font-size: 1em;
+	text-align: justify;
+	line-height: 1.3em;
+}
+
+.font-min-news {
+	font-family: 'Wix Madefor Display';
+	font-size: 1.1em;
+	text-align: justify;
+	line-height: 1.5em;
+}
+
+.font-title-news {
+	font-family: 'IBM Plex Mono';
+	text-align: center;
+	color: #fff;
+}
+
+.dropdown-item {
+	font-family: 'Wix Madefor Display';
+	font-size: 1.2rem;
+	color: #fff;
+}
+
+.font-footer {
+	font-family: 'IBM Plex Mono';
+	font-size: 0.9rem;
+	color: #fff;
+}
+
+.font-title-footer {
+	font-family: 'IBM Plex Mono';
+	font-size: 1.3rem;
+	color: #fff;
+	margin: 0px;
+	padding: 0px;
+}
+
+.font-author-footer {
+	font-family: 'IBM Plex Mono';
+	font-size: 0.7rem;
+	color: #fff;
+}
+
+.btn-outline-primary {
+	font-family: 'IBM Plex Mono';
+	font-size: 1.3rem;
+	color: #fff;
+	z-index: 1; 
+}
+
+.font-text-footer {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'IBM Plex Mono';
+	font-size: 0.9rem;
+	color: #fff;
+}
+
+.icon-text {
+	font-family: 'Wix Madefor Display';
+	font-size: 1em;
+	line-height: 1.2em;
+}
+
+.accordion {
+	font-family: 'Wix Madefor Display';
+}
+
+/*
+====================================================================
+	Containers & Size
+====================================================================
+*/
+
+.navbar-toggler-icon {
+  background-image: url(../img/icons/menu.svg);
+}
+
+.navbar-toggler {
+    border: 1px solid #fff;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: 2px solid #fff;
+}
+
+.carousel-item {
+	min-height: 535px; 
+	max-height: 535px;
+}
+
+.hatch {
+	height: 10px;
+}
+
+.line {
+	height: 5px;
+	width: 152px;
+}
+
+.img-size {
+	height: 308px;
+	width: 308px;
+}
+
+.icon-min {
+	height: 36px;
+	width: 36px;
+}
+
+.icon-max {
+	height: 42px;
+	width: 42px;
+}
+
+.icon-block {
+	border: 2px solid white;
+}
+
+.logo {
+	width: 112px;
+	height: 80px;
+}
+
+.pdf-size {
+	border-left: 4px solid rgba(0,113,241,1);
+	border-right: 4px solid rgba(0,113,241,1);
+	border-bottom: 4px solid rgba(0,113,241,1);
+	min-height: 73vh;
+	min-width: 100%
+}
+
+.download-img {
+	height: 440px; 
+	width: 720px; 
+	position: relative; 
+	left: 700px; 
+	bottom: 50px;
+}
+
+.main-1-img {
+	height: 440px; 
+	width: 440px; 
+	position: relative;
+	top: 1rem;
+	right: 3.6rem; 
+}
+
+.main-2-img {
+	height: 440px; 
+	width: 440px; 
+	position: relative; 
+	left: 5rem;
+}
+
+.table-flex-1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.table-flex-2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.yandex-map-size {
+	border: 3px solid rgba(0,113,241,1);
+	height: 100%;
+	width: 100%
+}
+
+/*
+====================================================================
+	Color & Background
+====================================================================
+*/
+
+.nav-gradient {
+	background: linear-gradient(90deg, rgba(0,154,218,1) 0%, rgba(0,113,241,1) 50%, rgba(97,198,255,1) 100%);
+}
+
+.nav-link:hover {
+	color: #38e1ff;
+}
+
+.active, .nav-link:focus, .nav-link:active {
+	color: #05d9ff;
+}
+
+.font-gradient {
+	background-image: linear-gradient(to right, #0163ea, #00bcf9); 
+	background-clip: text; 
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.carousel {
+	background: rgb(242, 250, 255);
+}
+
+#carouselExampleAutoplaying .active {
+	color: #000;
+}
+
+.hatch-gradient {
+	background: linear-gradient(90deg, rgba(97,198,255,1) 0%, rgba(66,146,236,1) 50%, rgba(97,198,255,1) 100%);
+}
+
+.dropdown-menu {
+	background: #7cbcf3;
+}
+
+.dropdown-item:hover {
+	color: #fff;
+	background: #60a7e6;
+}
+
+li + .dropdown-item:focus, li + .dropdown-item:active {
+	color: #fff;
+}
+
+.icon-min:hover {
+	background: #38e1ff;
+}
+
+.block {
+	background: rgb(242, 250, 255);
+}
+
+.btn-outline-primary {
+	background-color: #60a7e6;
+	border: 2px solid #0163ea;
+}
+
+.btn-outline-primary:hover {
+	background-color:#48cbe2;
+}
+
+.carousel-control-prev-icon {
+	background-image: url("../img/icons/arrow-prev.png");
+}
+
+.carousel-control-next-icon {
+	background-image: url("../img/icons/arrow-next.png");
+}
+
+.border {
+	background: #fff;
+	border-radius: 10px;
+}
+
+.font-logo {
+	color: rgba(1,69,142,1);
+}
+
+.accordion-item {
+	border-color: #5593c9 !important;
+	border: 3px solid;
+}
+
+.accordion-button:focus, .accordion-button:hover  {
+	background: #7cbcf3;
+}
+
+.accordion-button {
+	background: #d7eafb;
+	box-shadow: none !important;
+	border-color: #d7eafb !important;
+}
+
+/*
+====================================================================
+	Preloader
+====================================================================
+*/
+
+.preloader {
+	background: rgba(255, 255, 255, 0.774);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

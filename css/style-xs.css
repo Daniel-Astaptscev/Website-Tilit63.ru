@@ -1,0 +1,150 @@
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    
+/*
+====================================================================
+	Global Settings	
+====================================================================
+*/    
+    h4 {
+	    font-size: 1em;
+    } 
+    
+    li {
+    	font-size: 0.8em;
+    	line-height: 1.1em;
+    }
+
+    div p {
+    	font-size: 0.8em;
+    	line-height: 1.1em;
+    }
+    
+    table, th, td {
+    	border: 2px solid #5593c9;
+    	font-size: 0.8em;
+    } 
+    
+/*
+====================================================================
+	Fonts
+====================================================================
+*/
+    .font-footer {
+	    font-size: 0.8rem;
+    }
+
+    .font-title-footer {
+    	font-size: 0.8rem;
+    }
+
+    .font-author-footer {
+    	font-size: 0.5rem;
+    }
+
+    .font-text-footer {
+    	font-size: 0.6rem;
+    }
+
+    .font-header {
+    	font-size: 0.65rem;
+    	line-height: 0.8rem;
+    }
+    
+    .font-news {
+    	font-size: 0.7em;
+    	line-height: 1.3em;
+    }
+    
+    .font-min-news {
+    	font-size: 1.2em;
+    	line-height: 1.3em;
+    }
+    
+    .btn-outline-primary {
+    	font-size: 0.7em;
+    	line-height: 1.2em;
+    }
+
+    .nav-ibm-plex {
+    	font-size: 1.4em;
+    }
+    
+    .icon-text {
+    	font-size: 0.7em;
+    	line-height: 1em;
+    }
+    
+    .dropdown-item {
+    	font-size: 1.1em;
+    }
+    
+    .carousel-ibm-plex {
+    	font-size: 1.5em;
+    	line-height: 1em;
+    }
+
+/*
+====================================================================
+	Containers & Size
+====================================================================
+*/
+
+    .icon-email {
+    	height: 36px;
+    	width: 36px;
+    }
+    
+    .icon-min {
+    	height: 24px;
+    	width: 24px;
+    }
+    
+    .icon-block {
+        border: 1px solid #fff;
+    }
+    
+    .logo {
+    	width: 82px;
+    	height: 50px;
+    }
+    
+    .download-img {
+    	height: 240px; 
+    	width: 520px; 
+    	position: relative; 
+    	left: 0px;
+    	bottom: 0px;
+    }
+    
+    .icon-max {
+    	height: 36px;
+    	width: 36px;
+    }
+    
+    .main-2-img, .main-1-img {
+    	display: none;
+    }
+    
+    .table-flex-1, .table-flex-2 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .table-flex-1 {
+        padding: 5%;
+    }
+    
+    .img-building {
+        display: none;
+    }
+    
+    section > .d-flex {
+        display: none !important;
+    }
+    
+    #news-1 {
+        display: flex !important;
+        flex-direction: column-reverse !important;
+        flex-wrap: nowrap !important;
+    } 
+}
